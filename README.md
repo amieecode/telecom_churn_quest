@@ -16,7 +16,6 @@ The project includes
 
 The goal is to help telecom companies identify at-risk customers early and take proactive steps to increase customer retention
 
----
 
 ## Business Objective
 
@@ -25,7 +24,6 @@ The goal is to help telecom companies identify at-risk customers early and take 
 * Quantify potential revenue loss
 * Enable proactive customer retention strategies
 
----
 
 ## Dataset Description
 
@@ -37,7 +35,6 @@ The dataset includes customer-level telecom data such as:
 * Customer behavior (customer service calls, voicemail usage)
 * Target variable: **Churn (1 = Yes, 0 = No)**
 
----
 
 ## Analytical Approach
 
@@ -52,7 +49,6 @@ The dataset includes customer-level telecom data such as:
   * Service call groups
   * Customer risk segmentation
 
----
 
 ### 2. Exploratory Data Analysis (EDA)
 
@@ -62,8 +58,6 @@ Key patterns identified:
 * **High-usage and high-paying customers** are more likely to churn
 * Customers with **international plans** have higher churn rates
 * Customers with **voicemail plans** tend to be more retained
-
----
 
 ### 3. Predictive Modeling
 
@@ -75,7 +69,6 @@ A Logistic Regression model was built to predict churn probability.
 * ROC-AUC: **0.79**
 * Recall (Churn): Improved from **21% → 42% → 87%** (via threshold tuning)
 
----
 
 ### Threshold Optimization (Key Insight)
 
@@ -86,7 +79,6 @@ Instead of using the default 0.5 threshold:
 
 This increased the model’s ability to identify at-risk customers, enabling earlier intervention.
 
----
 
 ## Key Insights
 
@@ -95,7 +87,6 @@ This increased the model’s ability to identify at-risk customers, enabling ear
 *  **International plan users churn more frequently**
 *  **Customer dissatisfaction drives churn more than usage alone**
 
----
 
 ## Dashboard Overview (Power BI)
 
@@ -112,7 +103,6 @@ Provides a high-level summary of churn and its causes:
   * Usage patterns
   * Pricing and plans
 
----
 
 ### Page 2: Customer Risk & Retention Strategy
 
@@ -123,8 +113,6 @@ Focuses on actionable insights:
 * Customer-level risk analysis
 * Prioritization for retention efforts
 
----
-
 ## Business Recommendations
 
 *  Prioritize customers with **frequent service complaints**
@@ -133,7 +121,6 @@ Focuses on actionable insights:
 *  Re-evaluate pricing and value of international plans
 *  Use predictive scores to trigger **proactive retention campaigns**
 
----
 
 ## Tools & Technologies
 
@@ -142,7 +129,6 @@ Focuses on actionable insights:
 * **Jupyter Notebook**
 * **DAX** (for calculated metrics and KPIs)
 
----
 
 ## Project Impact
 
@@ -153,14 +139,6 @@ This project demonstrates how data analytics can:
 * Enable data-driven decision-making
 * Bridge the gap between data science and business strategy
 
----
-
-## Author
-
-**[Kaka]**
-Data Analyst | Business Intelligence Analyst
-
----
 
 ## Final Note
 
